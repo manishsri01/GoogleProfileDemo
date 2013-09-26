@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp" >
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Home Page"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_marginTop="15dp"
+        android:text="Name:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/textViewNameLabel"
+        android:text="Name:"
+        android:textSize="18sp" />
+    
+      <TextView
+        android:id="@+id/textViewEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textViewNameLabel"
+        android:layout_marginTop="15dp"
+        android:text="Email:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewEmailValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewNameValue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/textViewEmailLabel"
+        android:text="Email:"
+        android:textSize="18sp" />
+    
+     <TextView
+        android:id="@+id/textViewGenderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textViewEmailLabel"
+        android:layout_marginTop="15dp"
+        android:text="Gender:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewGenderValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewGenderLabel"
+        android:layout_alignLeft="@+id/textViewNameValue"
+        android:text="Gender:"
+        android:textSize="18sp" />
+    
+     <TextView
+        android:id="@+id/textViewBirthdayLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textViewGenderLabel"
+        android:layout_marginTop="15dp"
+        android:text="Birthday:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewBirthdayValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewBirthdayLabel"
+        android:layout_alignBottom="@+id/textViewBirthdayLabel"
+        android:layout_toRightOf="@+id/textViewBirthdayLabel"
+        android:text="Birthday:"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textViewTitle"/>
+   
+</RelativeLayout>
