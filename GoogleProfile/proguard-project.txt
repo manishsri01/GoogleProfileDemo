@@ -39,4 +39,3 @@
     public static final ** CREATOR;
 }
 
-
